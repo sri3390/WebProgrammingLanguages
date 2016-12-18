@@ -1,0 +1,42 @@
+<html>
+<head>
+<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+
+});
+$.ajax({
+		 type: "GET",
+		 url: "books.xml",
+		 dataType: "xml",
+			 success: function(data) {
+				$("#bookdisplay").append("<tr><th>Title</th><th> Authors </th><th> Year </th><th> Price </th><th> Category</th></tr>");
+				$(data).find('book').each(function(){
+				var title = $(this).find('title').text();
+				var author="a";
+				if( $(this).find('author').length == 1) author = $(this).find('author').text();
+				else{			
+				$(this).find('author').each(function(){
+					author += ", " + $(this).text();
+				});
+				}
+				author = author.replace("a,","");	
+				var year = $(this).find('year').text();
+				var price = $(this).find('price').text();
+				var Category = $(this).attr('category');
+				var info = '<tr><td>' + title+'</td>' + '<td>' + author +'</td>'+'<td>' + year+'</td>'+'<td>' + price+'</td>'+ '<td>' + 				Category+'</td></tr>';
+				$("#bookdisplay").append(info);
+				});
+
+			 },
+		 error: function() { alert("error loading file");  }
+     });
+
+	
+</script> 
+</head>
+<body>
+<table id="bookdisplay" border=1>
+</table>
+</body>
+</html>
