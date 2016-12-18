@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#ffffff;
+}
+
+.form-search {
+    width: 100%;
+    padding: 5px 20px 20px;
+    
+    background-color: #656565;
+	
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#ffffff;
+	font-weight:lighter;
+}
+.searchTab{	
+    border-collapse: separate;
+}
+.searchTab td{
+	padding-left:50px;
+}
+.form-search .form-search-heading{
+font-family:Century Gothic;
+    color:#ffffff;
+}
+.camel{
+	font-size: 40px;
+}
+.form-search h2{
+	margin-top:0px;
+}
+.histLink{
+
+width:100%;
+text-align:right;
+}
+.histLink a{
+	color:#82CAFA;
+	font-size:20px;
+	text-decoration:underline;
+}
+
+.form-search input[type="text"],
+.form-search input[type="password"],
+.form-search input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+
+.search-form
+{
+	margin-top:10px;	
+	width:100%;
+}
+
+#btn-submit{
+	height:45px;
+}
+.resDiv{
+	padding-top:20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#000000;
+	font-weight:lighter;
+}
+.summary{
+	padding-top:20px;
+}
+.detHead{
+	font-size:18px;
+	font-weight:bold;
+}
+.jobTab{
+border-collapse: collapse;
+}
+.jobTab td{
+width:300px;
+}
+.errorMsg{
+	font-size:20px;
+	color:red;
+}

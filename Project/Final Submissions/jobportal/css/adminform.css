@@ -1,0 +1,16 @@
+#form{
+	height:70%;
+	width:70%;
+	margin: 0 auto;
+	padding: 10px;
+	font-size:20px;
+	font-family:Century Gothic, sans-serif;
+}
+h1{
+	text-align:center;
+}
+#warningid,#warningtitle,#warninglocation,#warningfield,#warningjob_type,#warningsummary,#warningreq,#warningres{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:20px;
+	color: red;
+}

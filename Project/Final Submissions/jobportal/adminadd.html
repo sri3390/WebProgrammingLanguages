@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/adminform.css">
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/admin.js"></script>
+<h1> Add a New Job</h1>
+</head>
+<body>
+<div id="form">
+ <p> Fields Marked with * are Mandatory</p><br><br>
+<form class="form-horizontal" id = "adminform" method='post' action="adminaddjob.php">
+  <p>Job ID:   *<br>
+  <input type="text" id = "id" name="id"/>
+  <br></p>
+  <p>Title:   *<br>
+  <input type="text" id = "title" name="title"/>
+  <br></p>
+  <p>Location:   *<br>
+  <input type="text" id = "location" name="location"/>
+  <br></p>
+  <p>Field:   *<br>
+  <select name="field" id="field">
+	<option value="CS">Computer Science</option>
+	<option value="MBA">Business Adminstration</option>
+	<option value="EE">Electrical Engineering</option>
+	<option value="Other">Other</option>
+  </select>
+  <br></p>
+  <p>Job Type:   *<br>
+  <input type="text" id = "job_type" name="job_type"/>
+  <br></p>
+  <p>Job Summary:   *<br>
+  <textarea id = "summary" rows="10" cols="50" name="summary" form="adminform"></textarea>
+  <br></p>
+  <p>Requirements:   *<br>
+  <textarea id = "req" rows="10" cols="50" name="req" form="adminform"></textarea>
+  <br></p>
+  <p>Responsibilities:   *<br>
+  <textarea id = "res" rows="10" cols="50" name="res" form="adminform"></textarea>
+  <br></p>
+  <p><input type="submit" id="submit" class="btn btn-primary">
+  <button type="reset" class="btn btn-danger" value="Reset">Reset</button>
+  <button type="button" class="btn btn-primary" onClick="document.location.href='adminview.php'">Back</button></p>
+  
+</form>
+</div>
+</body>
+</html>

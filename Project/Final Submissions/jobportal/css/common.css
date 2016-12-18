@@ -1,0 +1,70 @@
+.main-wrapper
+{
+    margin: 0px auto;
+    width: 960px;
+    height: 1200px;
+    padding-top:50px;
+    background-color: #656565;
+    color: white;
+}
+.main-wrapper input[type=text]{
+	color:black;
+}
+.main-wrapper input[type=password]{
+	color:black;
+}
+.main-wrapper select{
+	color:black;
+}
+.mainBanner{
+	width: 500px;
+	margin: 0px auto;
+}
+
+.main-wrapper h2{
+	font-family:Century Gothic;
+    color:#ffffff;
+	margin-top:0px auto;
+}
+.camel{
+	font-size: 40px;
+}
+
+
+
+div.form-box
+{
+    padding-top:10px;
+    width: 260px;
+    min-height:40px;
+    float:left;
+    background-color: #656565;
+}
+
+div.form-box{
+    padding-left:10px;
+}
+
+
+.form-container
+{
+    width: 820px;
+    margin: 0px auto;
+}
+.form-container a
+{
+    color: white;
+}
+
+
+
+.error-message
+{
+    color: orange;
+}
+
+.next-row
+{
+    clear:left;
+}
+

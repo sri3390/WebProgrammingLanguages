@@ -1,0 +1,20 @@
+table{
+text-align:center; 
+margin: 0 auto;
+}
+th{
+	text-align:center; 
+	margin: 0 auto;
+}
+#history{
+	height:70%;
+	width:70%;
+	margin: 0 auto;
+	padding: 10px;
+	text-align:center;
+	font-size:30px;
+	font-family:Century Gothic, sans-serif;
+}
+#btn{
+	margin: 100px auto;
+}

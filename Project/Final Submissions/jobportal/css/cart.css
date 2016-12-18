@@ -1,0 +1,42 @@
+img{
+height: 20px;
+width: 25px;
+}
+table{
+text-align:center; 
+margin: 0 auto;
+}
+h1{
+	text-align:center; 
+	margin: 0 auto;
+}
+#cart{
+	height:70%;
+	width:70%;
+	margin: 0 auto;
+	padding: 10px;
+	text-align:center;
+	font-size:30px;
+	font-family:Century Gothic, sans-serif;
+}
+#adminview{
+	height:70%;
+	width:80%;
+	margin: 70px auto;
+	padding: 10px;
+	text-align:center;
+	font-size:30px;
+	font-family:Century Gothic, sans-serif;
+}
+#btn{
+	margin: 100px auto;
+}
+#msg{
+	margin: 0 auto;
+	text-align:center;
+	font-size:30px;
+	font-family:Century Gothic, sans-serif;
+}
+#job{
+	margin: 0 auto;
+}
